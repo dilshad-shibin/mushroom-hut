@@ -1,0 +1,213 @@
+@media(max-width:768px) {
+
+    /* sidemenu */
+    .sidemenu_bar::before {
+        right: -30%;
+    }
+
+    .close_bar {
+        margin-left: 40px;
+    }
+
+    .nav_bar_booking{
+        display: none;
+    }
+
+
+
+    /* banner */
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner-section-left {
+        width: 100%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+
+    /* booking */
+    .inupt_section {
+        width: 100%;
+        margin-left: 0;
+    }
+    .from_wrapper{    
+        height: 0px;
+        width: 100%;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .from_wrapper.active{
+        height: auto;
+        transition: 0.5s;
+    }
+
+    /* rooms */
+    .rooms_coloumn {
+        flex: 100%;
+    }
+
+    /* subscrib */
+    .subscrib_div {
+        width: 90%;
+    }
+
+    .subscrib_section p {
+        font-size: 18px;
+    }
+
+    /* palce */
+    .place_column {
+        flex: 100%;
+    }
+
+    /* footer */
+    .footer_column {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+
+
+    /* \\\\\\\\\about page//////// */
+    .about_banner h1 {
+        font-size: 2em;
+    }
+
+    .about_thumb {
+        width: 100%;
+    }
+
+    .about_details {
+        width: 100%;
+        height: 100%;
+        padding-left: 0px;
+    }
+
+    .about_details p {
+        padding-left: 0;
+    }
+
+
+    /* /////////location page\\\\\\\\\\ */
+    .location_banner h1 {
+        font-size: 3em;
+    }
+
+    .location_column {
+        flex: 100%;
+    }
+
+    .location_details h1 {
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+    .location_details p {
+        font-size: .8em;
+        font-weight: 400;
+    }
+
+    .location_details a {
+        font-size: 0.9em;
+    }
+
+
+
+    /* inner location page */
+    .inner_location_colum1 {
+        width: 100%;
+    }
+
+    .inner_location_colum2 {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+        border-left: 0;
+        margin-top: 20px;
+    }
+
+
+
+
+
+    /* accomadation page */
+    .accomadation_banner h1 {
+        font-size: 2.5em;
+    }
+
+    .acc_column {
+        height: 100%;
+        -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.26);
+        -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.26);
+        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.26);
+    }
+
+    .acc_thumb {
+        width: 100%;
+    }
+
+    .acc_details {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .acc_link_btn {
+        width: 100%;
+    }
+
+
+
+    /* innser accomadation page */
+    .inner_acc_column1 {
+        width: 100%;
+        border-right: none;
+        padding-right: 0px;
+    }
+
+    .inner_acc_column2 {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+
+
+
+    /* contact page */
+    .contact_head {
+        margin-top: 15%;
+        width: 100%;
+        position: inherit;
+    }
+
+    .contact_head h1 {
+        font-size: 2em;
+    }
+
+    .address {
+        width: 95%;
+        padding-left: 20px;
+        padding: 20px;
+        right: 10px;
+        height: auto;
+    }
+
+    .contact_colunm1 {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .contact_colunm2 {
+        width: 100%;
+    }
+
+    .contact_map {
+        margin-top: 0;
+    }
+}
